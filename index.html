@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,  target-densitydpi=160dpi">
+	<!--<meta name='viewport' content='width=device-width; content='width = 320; initial-scale=1.0; maximum-scale=1.0; user-scalable=no; target-densitydpi=160dpi'>-->
+	<meta name='apple-touch-fullscreen' content='yes'>
+	<meta name='apple-mobile-web-app-capable' content='yes'>
+	<meta name="apple-mobile-web-app-title" content="Bancopoly"> <!-- New in iOS6 -->
+	<meta name='format-detection' content='telephone=no'>
+	<title>Bancopoly</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='http://www.hasbro.com/common/downloads/wallpapers/wp_monopoly1357_1280.jpg' rel='apple-touch-icon' type='image/jpg'>
+</head>
+<body>
+	<div id="principal">
+		<div id="panel-izquierdo">
+			<div class="botones">
+				<button class="boton-panel" id="agrega-jugador">Agregar Jugador</button>
+				<button class="boton-panel oculto" id="comienza-juego">Jugar</button>
+			</div>
+		</div>
+		<div id="panel-derecho">
+			<div id="jugadores-creados">
+				<ul class="jugadores">
+
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/1.4.5/numeral.min.js"></script>
+	<script src="js/jugadores.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
