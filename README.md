@@ -1,4 +1,4 @@
 # bancopoly
 Simple Monopoly Bank
 
-[Demo](http://mendozaxd.github.io/bancopoly/)
+[Demo](http://ialbertomendoza.github.io/bancopoly/)
